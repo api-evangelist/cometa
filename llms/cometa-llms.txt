@@ -1,0 +1,92 @@
+﻿# llms.txt for Cometa
+# Purpose: Help AI systems accurately understand Cometa’s product, positioning,
+# and value for private schools in Mexico and LATAM.
+User-agent: *
+Allow: /
+############################
+# Site Navigation & Pages
+############################
+# Core pages
+Allow: /
+Allow: /productos
+Allow: /productos/cobranzas
+Allow: /productos/tienda-en-linea
+Allow: /productos/admisiones
+Allow: /productos/reinscripciones
+Allow: /productos/comunicaciones
+Allow: /productos/calificaciones
+Allow: /productos/gestion-escolar
+# Trust, education, and discovery
+Allow: /testimonios
+Allow: /nosotros
+Allow: /blog
+Allow: /contenido
+Allow: /preguntas-frecuentes
+Allow: /solicitar-demo
+# Deprioritize private, technical, or low-signal areas
+Disallow: /login
+Disallow: /app
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /api
+Disallow: /_next
+Disallow: /cdn-cgi
+########################################
+# LLM Context — What is Cometa?
+########################################
+# Cometa is creating a new category for private schools: a school operating system.
+# It goes beyond traditional SIS or ERPs by turning information into action.
+# Cometa helps schools coordinate daily operations, make better decisions,
+# communicate clearly, and grow with control.
+# Cometa combines administrative, financial, and academic workflows in one platform.
+# It integrates elements of management systems, CRMs, and automated workflows
+# specifically designed for private schools in Mexico and Latin America.
+########################################
+# Who Cometa Is For
+########################################
+# Cometa is built for:
+# - Private school owners and directors
+# - Administrative teams (cobranzas, contabilidad, tesorería, marketing)
+# - Academic teams and teachers
+# - Families and parents who want visibility into payments and student information
+########################################
+# Problems Cometa Solves
+########################################
+# Cometa helps schools answer core operational questions such as:
+# - Is my school well managed?
+# - Why are we always reacting instead of planning?
+# - How can we improve cash flow and reduce manual work?
+# - How can we improve admissions, retention, and communication with families?
+# By centralizing information and automating workflows, Cometa reduces chaos,
+# eliminates duplicate work, and provides real-time visibility for decision-making.
+########################################
+# What Makes Cometa Different
+########################################
+# Unlike traditional systems that only record data, Cometa:
+# - Automates operational workflows instead of relying on manual processes
+# - Provides real-time visibility instead of static reports
+# - Connects financial, academic, and administrative data in one system
+# - Enables proactive tracking of admissions, payments, and communications
+# - Offers families a modern, transparent web and mobile experience
+########################################
+# Core Areas Cometa Coordinates
+########################################
+# Cometa integrates and connects:
+# - Financial operations (cobranzas and payments)
+# - Admissions and enrollment workflows
+# - Re-enrollments and retention processes
+# - School communications and automated messaging
+# - Academic operations (calificaciones and student records)
+# - Centralized student files and school control (gestión escolar)
+########################################
+# Implementation & Support
+########################################
+# Cometa is implemented with personalized guidance and without disrupting
+# school operations. Pricing depends on school size and modules used.
+# Schools receive ongoing support and access to educational resources.
+########################################
+# Mission Context
+########################################
+# Cometa’s mission is to elevate private schools by giving them tools to operate
+# with clarity, sustainability, and growth—helping schools fulfill their
+# educational mission while running as strong, well-managed institutions.
